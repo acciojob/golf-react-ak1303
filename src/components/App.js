@@ -35,13 +35,6 @@ class App extends Component {
                 }
             }))
         }
-        if(e.key==='ArrowLeft'){
-            this.setState(prev=>({
-                ballPosition:{
-                    left: parseInt(this.state.ballPosition.left)-5+'px'
-                }
-            }))
-        }
        })
     }
 
